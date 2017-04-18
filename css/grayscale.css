@@ -43,6 +43,9 @@ p {
 .project-image{
   border: 2px solid white;
 }
+.network-button{
+  width: 150px;
+}
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
