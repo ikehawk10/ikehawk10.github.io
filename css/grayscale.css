@@ -65,8 +65,8 @@ a:focus {
   color: #1d9b6c;
 }
 
-.fa-linkedin {
-  padding:0 5px;
+.fa-linkedin, .fa-envelope-o {
+  padding:0 8px;
 }
 .light {
   font-weight: 400;
@@ -279,6 +279,7 @@ a:focus {
   color: black;
   background-color: #42DCA3;
 }
+
 ul.banner-social-buttons {
   margin-top: 0;
 }
