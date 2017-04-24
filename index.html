@@ -169,6 +169,19 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+            $(".project-image").on("mouseenter", function(){
+                $(this).removeClass("leave");
+                $(this).addClass("hover");
+            });
+            $(".project-image").on("mouseleave", function(){
+                $(this).addClass("leave");
+            })
+
+        })
+    </script>
 
 </body>
 
