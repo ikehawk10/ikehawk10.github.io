@@ -69,6 +69,10 @@ p {
 .skill-title {
   font-size: 22px;
 }
+.description {
+  font-style: italic;
+  margin: 25px 0 50px 0;
+}
 .network-button{
   width: 150px;
 }
