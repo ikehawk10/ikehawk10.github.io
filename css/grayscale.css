@@ -7,7 +7,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: 'Lato', sans-serif;  color: white;
-  background-color: black;
+  background-color: #4D4D4D;
 }
 html {
   width: 100%;
@@ -25,7 +25,6 @@ h6 {
   letter-spacing: 1px;
 }
 h2 {
-  font-family: 'Alice', serif;
   font-size: 40px;
 }
 p {
@@ -57,9 +56,7 @@ p {
 .project-image{
   border: 2px solid white;
 }
-#skills {
-  background-color: white;
-}
+
 #skills-list, #about-me {
     border-bottom: 1px solid #42DCA3;
     padding: 0 0 20px 0;
@@ -67,6 +64,13 @@ p {
 }
   #accomplishments {
   margin-top: 50px;
+}
+.progress-bar-success {
+  background-color: #0BB375;
+}
+.progress {
+  height: 15px;
+  margin:  15px 40px 100px 40px;
 }
 .skill-title {
   font-size: 22px;
