@@ -277,8 +277,14 @@
         
         $(document).ready(function(){
             window.sr = ScrollReveal();
-            sr.reveal('#projects', {duration: 2000, delay: 200, viewFactor: 0.5});
-            sr.reveal('.progress-bar', {duration: 2000, delay: 100});
+            sr.reveal('#projects', {
+                duration: 1000, 
+                origin: 'left',
+                distance: '-20px',
+                delay: 200, 
+                viewFactor: 0.25
+            });
+            sr.reveal('.progress-bar', {duration: 1000, delay: 100});
             $(".project-image").on("mouseenter", function(){
                 $(this).removeClass("leave");
                 $(this).addClass("hover");
