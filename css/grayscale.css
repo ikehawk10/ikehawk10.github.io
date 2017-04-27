@@ -33,15 +33,6 @@ p {
   line-height: 34px;
   letter-spacing: 1.25px
 }
-
-
-.fa-star, .fa-star-o, .fa-star-half-o {
-  color: yellow;
-}
-.star-rating {
-  margin-top: 10px;
-}
-
 .project-title {
   margin-top: 20px;
 }
@@ -110,7 +101,7 @@ a:focus {
   color: #1d9b6c;
 }
 
-.fa-linkedin, .fa-envelope-o {
+.fa-linkedin, .fa-envelope-o, .fa-paperclip {
   padding:0 8px;
 }
 .light {
