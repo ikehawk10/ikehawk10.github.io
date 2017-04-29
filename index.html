@@ -13,6 +13,8 @@
 
     <!-- Favicon icon -->
     <link rel="icon" href="img/dev.ico" type="image/x-icon">
+    <!-- Tilt.js -->
+    <link href="https://unpkg.com/tilt.js@1.1.18/dest/tilt.jquery.min.js"/>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,13 +26,12 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Alice" rel="stylesheet">
     <!-- Theme CSS -->
     <link href="css/grayscale.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/grayscale.css">
-
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet" type="text/css" >
 
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
@@ -81,6 +82,8 @@
             </div>
         </div>
     </header>
+</div>
+<div class="section">
 
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
@@ -192,7 +195,6 @@
         </div>
         <p id="accomplishments"><small>You can check out some of my accomplishments from <a href="https://www.codeschool.com/users/ikehawk10" target="_blank">Code School</a>, <a href="https://teamtreehouse.com/isaachawkins" target="_blank" >Team Treehouse</a>, and <a href="https://www.codecademy.com/isoccer0" target="_blank">Codecademy.</a></small></p>
     </section>
-
     <!-- Project Section Section -->
     <section id="download" class="content-section text-center">
         <div class="download-section">
@@ -222,13 +224,10 @@
                         <a href="http://ikehawkins.com/rpg-game/" target="_blank"><img class="project-image" src="img/halo-rpg.png"/></a>
                         <p class="description">HTML | CSS | JavaScript</p>
                     </div>
-                    
-
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
@@ -277,7 +276,10 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
+    <!-- Typeit Plugin -->
     <script src="js/typeit.js"></script>
+    <!-- Tilt Plugin -->
+    <script src="node_modules/tilt.js/src/tilt.jquery.js"></script>
     <script type="text/javascript">
         
         $(document).ready(function(){
@@ -289,7 +291,7 @@
                 delay: 200, 
                 viewFactor: 0.25
             });
-            sr.reveal('.progress-bar', {duration: 3000, delay: 100});
+            sr.reveal('.progress-bar', {duration: 2000, delay: 100});
             $(".project-image").on("mouseenter", function(){
                 $(this).removeClass("leave");
                 $(this).addClass("hover");
@@ -297,8 +299,6 @@
             $(".project-image").on("mouseleave", function(){
                 $(this).addClass("leave");
             });
-            
-
         })
     </script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
