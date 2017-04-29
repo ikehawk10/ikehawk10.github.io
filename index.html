@@ -28,6 +28,7 @@
     <link href="css/grayscale.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 
@@ -90,7 +91,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h2 id="about-me">About Isaac</h2>
-                <p class="bio">I am a Front-end Developer who specializes in HTML, CSS, JavaScript, jQuery, Bootstrap, and React. My introduction to web development began in 2005 via designing and customizing Wordpress and Xanga sites. However, until December of 2015 coding was only a hobby since I was focused on other career opportunties. Now, coming up on two years, I have been taking coding more seriously by enrolling in courses online, networking with other developers, and building small-scale web applications. I am currently sharpening my front-end skills in the Full Stack Coding Bootcamp at UT Austin. I have built a number of projects that I am really proud of (see below) and am excited for what is to come!</p>
+                <p class="bio">I am a Front-end Developer who specializes in HTML, CSS, JavaScript, jQuery, Bootstrap, and React. My introduction to web development began in 2005 via designing and customizing Wordpress and Xanga sites. However, it wasn't until two years ago that I started strengthening my coding skills by enrolling in courses online, networking with other developers, and building small-scale web applications. I am currently sharpening my front-end skills in the Full Stack Coding Bootcamp at UT Austin where I have built a number of projects that I am really proud of (see below) and am excited for what is to come!</p>
                 <br />
             </div>
         </div>
@@ -107,10 +108,9 @@
                 <div id="html">
                     <img src="img/html-5.png" class="logo-image" alt="html 5 logo" />
                 </div>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">90% Complete (success)</span>
-                  </div>
+                <div class="skillbar" data-percent="90">
+                  <p class="skillbar-bar"></p>
+                  <span class="skill-bar-percent"></span>
                 </div>
             </div>
             <div class="col-md-3 col-xs-6">
@@ -118,10 +118,9 @@
                 <div id="css">
                     <img src="img/css-logo.png" class="logo-image" alt="CSS 3 logo" />
                 </div>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%">
-                    <span class="sr-only">87% Complete (success)</span>
-                  </div>
+                <div class="skillbar" data-percent="85">
+                  <p class="skillbar-bar"></p>
+                  <span class="skill-bar-percent"></span>
                 </div>
             </div>
             <div class="col-md-3 col-xs-6">
@@ -129,10 +128,9 @@
                 <div id="javascript">
                     <img src="img/javascript-logo.png" class="logo-image" alt="javascript logo" />
                 </div>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%">
-                    <span class="sr-only">78% Complete (success)</span>
-                  </div>
+                <div class="skillbar" data-percent="70">
+                  <p class="skillbar-bar"></p>
+                  <span class="skill-bar-percent"></span>
                 </div>
             </div>
             <div class="col-md-3 col-xs-6">
@@ -140,10 +138,9 @@
                 <div id="node">
                     <img src="img/node-logo.png" class="logo-image" alt="node logo" />
                 </div>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
-                    <span class="sr-only">45% Complete (success)</span>
-                  </div>
+                <div class="skillbar" data-percent="42">
+                  <p class="skillbar-bar"></p>
+                  <span class="skill-bar-percent"></span>
                 </div>
             </div>
         </div>
@@ -153,10 +150,9 @@
                 <div id="css">
                     <img src="img/sass-logo.png" class="logo-image" alt="Sass logo" />
                 </div>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-                    <span class="sr-only">65% Complete (success)</span>
-                  </div>
+                <div class="skillbar" data-percent="67">
+                  <p class="skillbar-bar"></p>
+                  <span class="skill-bar-percent"></span>
                 </div>
             </div>
             <div class="col-md-3 col-xs-6">
@@ -164,10 +160,9 @@
                 <div id="jquery">
                     <img src="img/jquery-logo.png" class="logo-image" alt="jquery logo" />
                 </div>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%">
-                    <span class="sr-only">87% Complete (success)</span>
-                  </div>
+                <div class="skillbar" data-percent="77">
+                  <p class="skillbar-bar"></p>
+                  <span class="skill-bar-percent"></span>
                 </div>
             </div>
             <div class="col-md-3 col-xs-6">
@@ -175,10 +170,9 @@
                 <div id="bootstrap">
                     <img src="img/bootstrap-logo.png" class="logo-image" alt="bootstrap logo" />
                 </div>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="width: 92%">
-                    <span class="sr-only">92% Complete (success)</span>
-                  </div>
+                <div class="skillbar" data-percent="91">
+                  <p class="skillbar-bar"></p>
+                  <span class="skill-bar-percent"></span>
                 </div>
             </div>
             <div class="col-md-3 col-xs-6">
@@ -186,10 +180,9 @@
                 <div id="react">
                     <img src="img/react-logo.png" class="logo-image" alt="react logo" />
                 </div>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                    <span class="sr-only">40% Complete (success)</span>
-                  </div>
+                <div class="skillbar" data-percent="37">
+                  <p class="skillbar-bar"></p>
+                  <span class="skill-bar-percent"></span>
                 </div>
             </div>
         </div>
@@ -229,13 +222,20 @@
         </div>
     </section>
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+    <section id="contact" class="container text-center content-section">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Connect with Me!</h2>
-                <p>I am currently looking for work in the Austin, TX area! Therefore, please contact me for any inquiries or to just say hello!</p>
+            <div class="col-md-12">
+                <h2 id="connect">Connect with Me!</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
                 <p><a href="mailto:hawkins.isaac@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>hawkins.isaac@gmail.com</a>
                 </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="https://twitter.com/hawkins__isaac" target="_blank" class="btn btn-default btn-lg network-button"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
@@ -273,13 +273,11 @@
     <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.4.0/typeit.min.js"></script>
 
-
+    <script src="js/skill.bars.jquery.js"></script>
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
     <!-- Typeit Plugin -->
     <script src="js/typeit.js"></script>
-    <!-- Tilt Plugin -->
-    <script src="node_modules/tilt.js/src/tilt.jquery.js"></script>
     <script type="text/javascript">
         
         $(document).ready(function(){
@@ -291,7 +289,10 @@
                 delay: 200, 
                 viewFactor: 0.25
             });
-            sr.reveal('.progress-bar', {duration: 2000, delay: 100});
+            sr.reveal('#skills', {
+                duration: 1000,
+                delay: 400
+            })
             $(".project-image").on("mouseenter", function(){
                 $(this).removeClass("leave");
                 $(this).addClass("hover");
@@ -299,6 +300,11 @@
             $(".project-image").on("mouseleave", function(){
                 $(this).addClass("leave");
             });
+            $('.skillbar').skillBars({
+        from: 0,
+        speed: 4000, 
+        interval: 100,
+    });
         })
     </script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>

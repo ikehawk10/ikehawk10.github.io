@@ -54,12 +54,13 @@ p {
 .logo-image{
   height: 100px;
   width: 100px;
+  align-content: center;
 }
 .project-image{
   border: 2px solid white;
 }
 
-#skills-list, #about-me {
+#skills-list, #about-me, #connect {
     border-bottom: 1px solid #42DCA3;
     padding: 0 0 20px 0;
     margin: 50px 20%;
@@ -67,13 +68,7 @@ p {
   #accomplishments {
   margin-top: 50px;
 }
-.progress-bar-success {
-  background-color: #0BB375;
-}
-.progress {
-  height: 15px;
-  margin:  15px 40px 100px 40px;
-}
+
 .skill-title {
   font-size: 22px;
 }
