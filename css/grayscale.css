@@ -58,6 +58,7 @@ p {
 }
 .project-image{
   border: 2px solid white;
+  opacity: .5;
 }
 
 #skills-list, #about-me, #connect {
@@ -82,12 +83,15 @@ p {
 .hover {
   transform: scale(1.05);
   transition: all .25s;
-  box-shadow: 10px 8px 15px 5px rgba(0, 0, 0, 0.5), 10px 12px 20px 5px rgba(0, 0, 0, 0.5)
+  box-shadow: 10px 8px 15px 5px rgba(0, 0, 0, 0.5), 10px 12px 20px 5px rgba(0, 0, 0, 0.5);
+  opacity: 1;
+
 }
 .leave {
   transform: scale(1.0);
   transition: all(.25s);
   box-shadow: none;
+  opacity: .5;
 }
 @media (min-width: 768px) {
   p {
