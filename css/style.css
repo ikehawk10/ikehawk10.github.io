@@ -11,12 +11,11 @@
 
 .skillbar-bar {
   height:20px;
-  width:0px;
   background:#6adcfa;
   background-color: #42DCA3;
   border-radius:3px;
   display:inline-block;
-  text-align: none;
+  align-items: left !important;
 }
 
 .skill-bar-percent {
