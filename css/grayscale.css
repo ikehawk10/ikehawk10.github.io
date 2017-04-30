@@ -112,7 +112,7 @@ a:focus {
   color: #1d9b6c;
 }
 .fa-linkedin, .fa-envelope-o, .fa-paperclip {
-  padding:0 8px;
+  padding:0 8px 0 0;
 }
 .light {
   font-weight: 400;
