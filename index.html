@@ -293,8 +293,11 @@
                 delay: 400
             })
             $(".project-image").on("mouseenter", function(){
+                $(".project-image").addClass("notHovered");
+                $(this).removeClass("notHovered");
                 $(this).removeClass("leave");
                 $(this).addClass("hover");
+
             });
             $(".project-image").on("mouseleave", function(){
                 $(this).addClass("leave");
