@@ -300,6 +300,7 @@
 
             });
             $(".project-image").on("mouseleave", function(){
+                $(".project-image").removeClass("notHovered");
                 $(this).addClass("leave");
             });
             $('.skillbar').skillBars({
