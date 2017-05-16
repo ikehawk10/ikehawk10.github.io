@@ -49,15 +49,13 @@ p {
 }
 .project-image {
   width: 100%;
-  height: 100%;
+  height: 350px;
+  border: 2px solid white;
 }
 .logo-image{
   height: 100px;
   width: 100px;
   align-content: center;
-}
-.project-image{
-  border: 2px solid white;
 }
 
 #skills-list, #about-me, #connect {
