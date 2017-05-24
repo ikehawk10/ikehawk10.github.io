@@ -109,7 +109,7 @@
             <div class="col-md-3 col-xs-6">
                 <h3 class="skill-title">HTML</h3>
                 <div id="html">
-                    <img src="img/html-5.png" class="logo-image" alt="html 5 logo" />
+                    <img src="img/html-5.png" class="logo-image animated" alt="html 5 logo" />
                 </div>
                 <div class="skillbar text-left" data-percent="90">
                   <p class="skillbar-bar"></p>
@@ -119,7 +119,7 @@
             <div class="col-md-3 col-xs-6">
                 <h3 class="skill-title">CSS</h3>
                 <div id="css">
-                    <img src="img/css-logo.png" class="logo-image" alt="CSS 3 logo" />
+                    <img src="img/css-logo.png" class="logo-image animated" alt="CSS 3 logo" />
                 </div>
                 <div class="skillbar text-left" data-percent="85">
                   <p class="skillbar-bar"></p>
@@ -129,7 +129,7 @@
             <div class="col-md-3 col-xs-6">
                 <h3 class="skill-title ">JavaScript</h3>
                 <div id="javascript">
-                    <img src="img/javascript-logo.png" class="logo-image" alt="javascript logo" />
+                    <img src="img/javascript-logo.png" class="logo-image animated" alt="javascript logo" />
                 </div>
                 <div class="skillbar text-left" data-percent="70">
                   <p class="skillbar-bar"></p>
@@ -139,7 +139,7 @@
             <div class="col-md-3 col-xs-6">
                 <h3 class="skill-title">Node.js</h3>
                 <div id="node">
-                    <img src="img/node-logo.png" class="logo-image" alt="node logo" />
+                    <img src="img/node-logo.png" class="logo-image animated" alt="node logo" />
                 </div>
                 <div class="skillbar text-left" data-percent="68">
                   <p class="skillbar-bar"></p>
@@ -151,7 +151,7 @@
             <div class="col-md-3 col-xs-6">
                 <h3 class="skill-title">Sass</h3>
                 <div id="css">
-                    <img src="img/sass-logo.png" class="logo-image" alt="Sass logo" />
+                    <img src="img/sass-logo.png" class="logo-image animated" alt="Sass logo" />
                 </div>
                 <div class="skillbar text-left" data-percent="67">
                   <p class="skillbar-bar"></p>
@@ -161,7 +161,7 @@
             <div class="col-md-3 col-xs-6">
                 <h3 class="skill-title">jQuery</h3>
                 <div id="jquery">
-                    <img src="img/jquery-logo.png" class="logo-image" alt="jquery logo" />
+                    <img src="img/jquery-logo.png" class="logo-image animated" alt="jquery logo" />
                 </div>
                 <div class="skillbar text-left" data-percent="77">
                   <p class="skillbar-bar"></p>
@@ -171,7 +171,7 @@
             <div class="col-md-3 col-xs-6">
                 <h3 class="skill-title">Bootstrap</h3>
                 <div id="bootstrap">
-                    <img src="img/bootstrap-logo.png" class="logo-image" alt="bootstrap logo" />
+                    <img src="img/bootstrap-logo.png" class="logo-image animated" alt="bootstrap logo" />
                 </div>
                 <div class="skillbar text-left" data-percent="87">
                   <p class="skillbar-bar"></p>
@@ -181,7 +181,7 @@
             <div class="col-md-3 col-xs-6">
                 <h3 class="skill-title">Git/Github</h3>
                 <div id="github">
-                    <img src="img/github.png" class="logo-image" alt="github logo" />
+                    <img src="img/github.png" class="logo-image animated" alt="github logo" />
                 </div>
                 <div class="skillbar text-left" data-percent="84">
                   <p class="skillbar-bar"></p>
@@ -317,6 +317,12 @@
                 speed: 4000, 
                 interval: 100,
             });
+            $(".logo-image").on("mouseenter", function(){
+                $(this).addClass("jello");
+            });
+            $(".logo-image").on("mouseleave", function(){
+                $(this).removeClass("jello");
+            })
         })
     </script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
