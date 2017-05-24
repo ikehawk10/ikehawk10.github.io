@@ -31,3 +31,55 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $(".navbar-collapse").collapse('hide');
 });
+
+$(document).ready(function(){
+            window.sr = ScrollReveal();
+            sr.reveal('#projects', {
+                duration: 1000, 
+                origin: 'left',
+                distance: '-20px',
+                viewFactor: 0.25
+            });
+            sr.reveal('#skills', {
+                duration: 1000,
+                viewFactor: 0.5
+            })
+            $(".project-image").on("mouseenter", function(){
+                $(".project-image").addClass("notHovered");
+                $(this).removeClass("notHovered");
+                $(this).removeClass("leave");
+                $(this).addClass("hover");
+
+            });
+            $(".project-image").on("mouseleave", function(){
+                $(".project-image").removeClass("notHovered");
+                $(this).addClass("leave");
+            });
+            $('.skillbar').skillBars({
+                from: 0,
+                speed: 4000, 
+                interval: 100,
+            });
+            $(".logo-image").on("mouseenter", function(){
+                $(this).addClass("jello");
+            });
+            $(".logo-image").on("mouseleave", function(){
+                $(this).removeClass("jello");
+            });
+            $(".project-image").on("mouseenter", function(){
+                $(this).parent().siblings('p').css('visibility', 'visible');
+                $(this).parent().siblings('p').addClass('slideInUp');
+            });
+        })
+
+
+
+
+
+
+
+
+
+
+
+

@@ -201,31 +201,24 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 project-section">
+                    <div class="col-lg-6 project-section">
                         <a href="https://hookedinaustin.herokuapp.com/" target="_blank"><img class="project-image" src="img/hookedin.png"/></a>
-                        <p class="description"> Sass | Bootstrap | AJAX  |  Node.js</p>
+                        <p class="description animated"> Sass | Bootstrap | AJAX  |  Node.js</p>
                     </div>
-                    <div class="col-md-4  project-section">
+                    <div class="col-lg-6  project-section">
                         <a href="https://platonix.herokuapp.com/home.html" target="_blank"><img class="project-image" src="img/platonix.png"/></a>
-                        <p class="description">Design | Bootstrap | jQuery | Node.js</p>
-                    </div>
-                   <div class="col-md-4 project-section">
-                        <a href="http://ikehawkins.com/Johnnyswimpage/" target="_blank"><img class="project-image" src="img/johnnyswim.png"/></a>
-                        <p class="description">Design | CSS | Bootstrap</p>
+                        <p class="description animated">Bootstrap | jQuery | Node.js</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 project-section">
+                   <div class="col-lg-6 project-section">
+                        <a href="http://ikehawkins.com/Johnnyswimpage/" target="_blank"><img class="project-image" src="img/johnnyswim.png"/></a>
+                        <p class="description animated">Design | CSS | Bootstrap</p>
+                    </div>
+
+                    <div class="col-lg-6 project-section">
                         <a href="http://ikehawkins.com/grumble/" target="_blank"> <img class="project-image" src="img/grumble.png"/></a>
-                        <p class="description">Design | AJAX | jQuery | APIs</p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="http://ikehawkins.com/hangman-game/" target="_blank"><img class="project-image" src="img/hangman.png" alt="Hangman Game" /></a>
-                        <p class="description">HTML |  CSS  |  Bootstrap  |  JavaScript</p>  
-                    </div>
-                    <div class="col-md-4">
-                        <a href="http://ikehawkins.com/triviaGame/" target="_blank"><img class="project-image" src="img/trivia.png" alt="Trivia Game" /></a>
-                        <p class="description">HTML | CSS  |  Bootstrap  |  jQuery</p>  
+                        <p class="description animated">Design | AJAX | jQuery | APIs</p>
                     </div>
                 </div>
             </div>
@@ -287,44 +280,7 @@
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
     <!-- Typeit Plugin -->
-    <script type="text/javascript">
-        
-        $(document).ready(function(){
-            window.sr = ScrollReveal();
-            sr.reveal('#projects', {
-                duration: 1000, 
-                origin: 'left',
-                distance: '-20px',
-                viewFactor: 0.25
-            });
-            sr.reveal('#skills', {
-                duration: 1000,
-                viewFactor: 0.5
-            })
-            $(".project-image").on("mouseenter", function(){
-                $(".project-image").addClass("notHovered");
-                $(this).removeClass("notHovered");
-                $(this).removeClass("leave");
-                $(this).addClass("hover");
-
-            });
-            $(".project-image").on("mouseleave", function(){
-                $(".project-image").removeClass("notHovered");
-                $(this).addClass("leave");
-            });
-            $('.skillbar').skillBars({
-                from: 0,
-                speed: 4000, 
-                interval: 100,
-            });
-            $(".logo-image").on("mouseenter", function(){
-                $(this).addClass("jello");
-            });
-            $(".logo-image").on("mouseleave", function(){
-                $(this).removeClass("jello");
-            })
-        })
-    </script>
+    <script type="text/javascript" src="js/grayscale.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
 </body>
