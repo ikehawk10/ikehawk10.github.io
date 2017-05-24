@@ -37,7 +37,17 @@ p {
   margin:0 auto;
   white-space: nowrap;
   overflow: hidden;
+/*  -webkit-animation-duration: 3s;*/
+  -webkit-animation-delay: .5s;
 }
+.sub-header {
+  -webkit-animation-delay: 2s;
+}
+/*#yourElement {
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}*/
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
@@ -78,6 +88,9 @@ p {
     top: -141px;
     background-color: rgba(0, 0, 0, .5);
     visibility: hidden;
+}
+.btn-circle {
+  -webkit-animation-iteration-count: 2;
 }
 .network-button{
   width: 150px;
