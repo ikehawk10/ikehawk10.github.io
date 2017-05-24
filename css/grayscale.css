@@ -37,7 +37,6 @@ p {
   margin:0 auto;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 3.5s steps(40, end)
 }
 @keyframes typing {
   from { width: 0 }

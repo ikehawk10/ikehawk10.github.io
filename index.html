@@ -29,6 +29,9 @@
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet" type="text/css" >
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
 
 </head>
 
@@ -74,7 +77,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 id="brand-heading"></h1>
+                        <h1 id="brand-heading" class=" animated bounceInUp">Isaac Hawkins</h1>
+                        <h4 class=" animated">Front-end Developer</h4>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -283,7 +287,6 @@
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
     <!-- Typeit Plugin -->
-    <script src="js/typeit.js"></script>
     <script type="text/javascript">
         
         $(document).ready(function(){
@@ -292,12 +295,10 @@
                 duration: 1000, 
                 origin: 'left',
                 distance: '-20px',
-                delay: 200, 
                 viewFactor: 0.25
             });
             sr.reveal('#skills', {
                 duration: 1000,
-                delay: 400,
                 viewFactor: 0.5
             })
             $(".project-image").on("mouseenter", function(){
