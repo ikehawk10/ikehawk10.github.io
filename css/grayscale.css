@@ -71,8 +71,13 @@ p {
   font-size: 22px;
 }
 .description {
-  font-style: italic;
-  margin: 25px 0 50px 0;
+    font-style: italic;
+    margin: 25px 2px 50px 2px;
+    position: relative;
+    padding: 40px 0;
+    top: -141px;
+    background-color: rgba(0, 0, 0, .5);
+    visibility: hidden;
 }
 .network-button{
   width: 150px;
