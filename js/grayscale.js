@@ -70,6 +70,12 @@ $(document).ready(function(){
                 $(this).parent().siblings('p').css('visibility', 'visible');
                 $(this).parent().siblings('p').addClass('slideInUp');
             });
+            $(".btn-circle").on("mouseenter", function(){
+                $(this).addClass("bounce");
+            });
+            $(".btn-circle").on("mouseleave", function(){
+                $(this).removeClass("bounce");
+            })
         })
 
 
