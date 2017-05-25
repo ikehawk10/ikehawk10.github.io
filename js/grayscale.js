@@ -68,7 +68,7 @@ $(document).ready(function(){
             });
             $(".project-image").on("mouseenter", function(){
                 $(this).parent().siblings('p').css('visibility', 'visible');
-                $(this).parent().siblings('p').addClass('slideInUp');
+                $(this).parent().siblings('p').addClass('zoomIn');
             });
             $(".btn-circle").on("mouseenter", function(){
                 $(this).addClass("bounce");
