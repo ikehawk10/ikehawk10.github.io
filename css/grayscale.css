@@ -43,15 +43,6 @@ p {
 .sub-header {
   -webkit-animation-delay: 2s;
 }
-/*#yourElement {
-  -vendor-animation-duration: 3s;
-  -vendor-animation-delay: 2s;
-  -vendor-animation-iteration-count: infinite;
-}*/
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
 
 .project-title {
   margin-top: 20px;
@@ -76,18 +67,21 @@ p {
   #accomplishments {
   margin-top: 50px;
 }
-
+.project-section {
+  height: 335px;
+}
 .skill-title {
   font-size: 22px;
 }
 .description {
     font-style: italic;
-    margin: 25px 2px 50px 2px;
     position: relative;
-    padding: 40px 0;
-    top: -141px;
-    background-color: rgba(0, 0, 0, .5);
+    padding: 136px 0;
+    top: -309px;
+    display: block;
+    background-color: rgba(0, 0, 0, .75);
     visibility: hidden;
+    font-size: 25px;
 }
 .btn-circle {
   -webkit-animation-iteration-count: 2;
@@ -112,9 +106,16 @@ p {
     height: 350px;
   }
 }
-@media (max-width: 1200px){
+@media (max-width: 1199px){
   .project-image { 
     height: 450px;
+  }
+  .project-section {
+    height: 485px;
+  }
+  .description {
+    padding: 206px 0;
+    top: -449px;
   }
 }
 @media (min-width: 768px) {
@@ -125,7 +126,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #1d9b6c;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -133,7 +134,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #42DCA3;
 }
 .fa-linkedin, .fa-envelope-o, .fa-paperclip {
   padding:0 8px 0 0;
