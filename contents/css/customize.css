@@ -464,6 +464,25 @@ a:focus {
     cursor: pointer;
 }
 
+#BtnMobilMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mobile-position{
+  position: absolute;
+  left: 10px;
+  top: 30px;
+}
+
+#mobile-name{
+    color: #666;
+    left: 10px;
+    position: absolute;
+    margin-top: 0;
+}
+
 /*------------------------------------------------------------------
 [5. Portfolio Content and Customizations / Single Page ]
 */
