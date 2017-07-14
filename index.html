@@ -1,285 +1,325 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Isaac Hawkins | Front-end Developer | Portfolio</title>
-
-    <!-- Favicon icon -->
-    <link rel="icon" href="img/dev.ico" type="image/x-icon">
-    <!-- Tilt.js -->
-    <link href="https://unpkg.com/tilt.js@1.1.18/dest/tilt.jquery.min.js"/>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Alice" rel="stylesheet">
-    <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet" type="text/css" >
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
-
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <span class="light">Isaac</span> Hawkins
-                </a>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Isaac Hawkins | Front End Developer</title>
+        <meta name="reply-to" content="hawkins.isaac@gmail.com">
+        <!--Verifitication-->
+        <meta name="google-site-verification" content="">
+        <meta name="alexaVerifyID" content="">
+        <meta name="yandex-verification" content="">
+        <meta name="msvalidate.01" content="">
+        <!-- / Verifitication-->
+        <link rel="icon" href="contents/images/icons/dev.ico" type="image/x-icon">
+        <link rel="canonical" href="http://www.ikehawkins.com/">
+        <!-- CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet" type="text/css">
+        <link href="contents/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="contents/css/hover-min.css" rel="stylesheet" type="text/css">
+        <link href="contents/portfolio/css/cubeportfolio.css" rel="stylesheet" type="text/css">
+        <link href="contents/portfolio/css/portfolio.min.css" rel="stylesheet" type="text/css">
+        <link href="contents/css/customize.css" rel="stylesheet" type="text/css">
+        <!-- Font Awesome -->
+        <script src="https://use.fontawesome.com/e9965a82bb.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+          <!--Menu-->
+          <div class="hidden-xs menu">
+            <div class="list-group cbp-l-filters-button js-filters-juicy-projects">
+                <div data-filter="*" class="cbp-filter-item list-group-item logo">
+                    <h3>Isaac Hawkins</h3>
+                </div>
+                <a href="about-me.html" class="cbp-singlePage list-group-item hvr-underline-from-left text-uppercase" data-cbp-singlePage="myCustomSinglePage1">About Me</a>
+                <div data-filter="*" class="cbp-filter-item list-group-item hvr-underline-from-left text-uppercase"> All Portfolio </div>
+                <div data-filter=".movie" class="cbp-filter-item list-group-item hvr-underline-from-left text-uppercase"> Web Applications </div>
+                <div data-filter=".identity" class="cbp-filter-item list-group-item hvr-underline-from-left text-uppercase"> Side Projects </div>
+                <div data-filter=".web-design" class="cbp-filter-item list-group-item hvr-underline-from-left text-uppercase"> Web Design</div>
+                <div data-filter=".graphic" class="cbp-filter-item list-group-item hvr-underline-from-left text-uppercase"> Graphic</div>
+                <div data-filter=".logos" class="cbp-filter-item list-group-item hvr-underline-from-left text-uppercase"> Logo</div>
+                <!--Contact-->
+                <div class="list-group-item">
+                    <address>
+                        <strong>Isaac Hawkins</strong><br>
+                        <a href="mailto:hawkins.isaac@gmail.com">hawkins.isaac@gmail.com</a><br>
+                        Austin, Tx
+                    </address>
+                </div>
+                <!--/Contact-->
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
+          </div>
+          <!-- /Menu-->
+          <div class="main">
+            <!--Mobile Menu-->
+            <div class="visible-xs">
+                <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <div id="BtnMobilMenu" class="navbar-header text-center">
+                      
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav js-filters-juicy-projects">
+                        <li class="cbp-singlePage list-group-item text-center hvr-underline-from-center text-uppercase"><a href="about-me.html" class="cbp-singlePage" data-cbp-singlePage="myCustomSinglePage1">About Me</a></li>
+                        <li data-filter="*" class="cbp-filter-item list-group-item text-center hvr-underline-from-center text-uppercase"> All Portfolio</li>
+                        <li data-filter=".movie" class="cbp-filter-item list-group-item text-center hvr-underline-from-center text-uppercase"> Web Applications </li>
+                        <li data-filter=".identity" class="cbp-filter-item list-group-item text-center hvr-underline-from-center text-uppercase"> Side Projects </li>
+                        <li data-filter=".web-design" class="cbp-filter-item list-group-item text-center hvr-underline-from-center text-uppercase"> Web Design</li>
+                        <li data-filter=".graphic" class="cbp-filter-item list-group-item text-center hvr-underline-from-center text-uppercase"> Graphic</li>
+                        <li data-filter=".logos" class="cbp-filter-item list-group-item text-center hvr-underline-from-center text-uppercase"> Logo</li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
             </div>
-            <!-- /.navbar-collapse -->
+            <!-- /Mobile Menu-->
+            <!--portfolio -->
+            <div class="portfolio-content portfolio-1">
+                <!--portfolio Grid-->
+                <div id="js-grid-juicy-projects" class="cbp">
+                    <!--portfolio 1-->
+                    <div class="cbp-item movie">
+                        <div class="cbp-item-wrap">
+                            <div class="cbp-caption">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="contents/images/portfolios/600x600/1.jpg" alt="img3"> </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignCenter">
+                                        <div class="cbp-l-caption-body">
+                                            <div class="btn-group">
+                                                <a href="projects/project1.html" class="cbp-singlePage btn text-lowercase" rel="nofollow" data-cbp-singlePage="projects">more info</a>
+                                                <a href="https://www.youtube.com/watch?v=3wbvpOIIBQA" class="cbp-lightbox btn btn-sm text-lowercase btn-right" data-title="GoPro: HERO3+ Black Edition<br>by GoPro">view video</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cbp-l-grid-projects-title uppercase text-center uppercase text-center">Project One</div>
+                            <div class="cbp-l-grid-projects-desc uppercase text-center uppercase text-center">Animation / Movie</div>
+                        </div>
+                    </div>
+                    <!--/portfolio 1-->
+                    <!--portfolio 2-->
+                    <div class="cbp-item movie">
+                        <div class="cbp-item-wrap">
+                            <div class="cbp-caption">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="contents/images/portfolios/600x600/2.jpg" alt="img4"> </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignCenter">
+                                        <div class="cbp-l-caption-body">
+                                            <div class="btn-group">
+                                                <a href="projects/project2.html" class="cbp-singlePage btn btn-sm text-lowercase" rel="nofollow" data-cbp-singlePage="projects">more info</a>
+                                                <a href="contents/images/portfolios/1400x900/01.jpg" class="cbp-lightbox btn btn-sm text-lowercase btn-right" data-title="Granite Stationery: Documents Perspective<br>by Aaron Covrett">view larger</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cbp-l-grid-projects-title uppercase text-center uppercase text-center">Project Two</div>
+                            <div class="cbp-l-grid-projects-desc uppercase text-center uppercase text-center">Animation / Movie</div>
+                        </div>
+                    </div>
+                    <!--/portfolio 2-->
+                    <!--portfolio 3-->
+                    <div class="cbp-item graphic">
+                        <div class="cbp-item-wrap">
+                            <div class="cbp-caption">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="contents/images/portfolios/600x600/3.jpg" alt="img5"> </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignCenter">
+                                        <div class="cbp-l-caption-body">
+                                            <div class="btn-group">
+                                                <a href="projects/project3.html" class="cbp-singlePage btn btn-sm text-lowercase" rel="nofollow" data-cbp-singlePage="projects">more info</a>
+                                                <a href="http://vimeo.com/1084537" class="cbp-lightbox btn btn-sm text-lowercase btn-right" data-title="Big Buck Bunny<br>by Blender Foundation">view video</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cbp-l-grid-projects-title uppercase text-center uppercase text-center">Project Three</div>
+                            <div class="cbp-l-grid-projects-desc uppercase text-center uppercase text-center">Graphic</div>
+                        </div>
+                    </div>
+                    <!--/portfolio 3-->
+                    <!--portfolio 4-->
+                    <div class="cbp-item identity">
+                        <div class="cbp-item-wrap">
+                            <div class="cbp-caption">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="contents/images/portfolios/600x600/4.jpg" alt="img6"> </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignCenter">
+                                        <div class="cbp-l-caption-body">
+                                            <div class="btn-group">
+                                                <a href="projects/project4.html" class="cbp-singlePage btn btn-sm text-lowercase" rel="nofollow" data-cbp-singlePage="projects">more info</a>
+                                                <a href="contents/images/portfolios/1400x900/02.jpg" class="cbp-lightbox btn btn-sm text-lowercase btn-right" data-title="Granite Stationery: Resume Perspective<br>by Aaron Covrett">view larger</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cbp-l-grid-projects-title uppercase text-center uppercase text-center">Project Four</div>
+                            <div class="cbp-l-grid-projects-desc uppercase text-center uppercase text-center">Identity / Graphic</div>
+                        </div>
+                    </div>
+                    <!--/portfolio 4-->
+                    <!--portfolio 5-->
+                    <div class="cbp-item web-design">
+                        <div class="cbp-item-wrap">
+                            <div class="cbp-caption">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="contents/images/portfolios/600x600/5.jpg" alt="img7"> </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignCenter">
+                                        <div class="cbp-l-caption-body">
+                                            <div class="btn-group">
+                                                <a href="projects/project5.html" class="cbp-singlePage btn btn-sm text-lowercase" rel="nofollow" data-cbp-singlePage="projects">more info</a>
+                                                <a href="https://www.youtube.com/watch?v=3wbvpOIIBQA" class="cbp-lightbox btn btn-sm text-lowercase btn-right" data-title="GoPro: HERO3+ Black Edition<br>by GoPro">view video</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cbp-l-grid-projects-title uppercase text-center uppercase text-center">Project Five</div>
+                            <div class="cbp-l-grid-projects-desc uppercase text-center uppercase text-center">Web Design / Graphic</div>
+                        </div>
+                    </div>
+                    <!--/portfolio 5-->
+                    <!--portfolio 6-->
+                    <div class="cbp-item logos">
+                        <div class="cbp-item-wrap">
+                            <div class="cbp-caption">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="contents/images/portfolios/600x600/6.jpg" alt="img8"> </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignCenter">
+                                        <div class="cbp-l-caption-body">
+                                            <div class="btn-group">
+                                                <a href="projects/project6.html" class="cbp-singlePage btn btn-sm text-lowercase" rel="nofollow" data-cbp-singlePage="projects">more info</a>
+                                                <a href="contents/images/portfolios/1400x900/03.jpg" class="cbp-lightbox btn btn-sm text-lowercase btn-right" data-title="Granite Stationery: Resume Close-Up<br>by Aaron Covrett">view larger</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cbp-l-grid-projects-title uppercase text-center uppercase text-center">Project Six</div>
+                            <div class="cbp-l-grid-projects-desc uppercase text-center uppercase text-center">Logos / Graphic</div>
+                        </div>
+                    </div>
+                    <!--/portfolio 6-->
+                    <!--portfolio 7-->
+                    <div class="cbp-item logos">
+                        <div class="cbp-item-wrap">
+                            <div class="cbp-caption">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="contents/images/portfolios/600x600/7.jpg" alt="img9"> </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignCenter">
+                                        <div class="cbp-l-caption-body">
+                                            <div class="btn-group">
+                                                <a href="projects/project7.html" class="cbp-singlePage btn btn-sm text-lowercase" rel="nofollow" data-cbp-singlePage="projects">more info</a>
+                                                <a href="http://vimeo.com/1084537" class="cbp-lightbox btn btn-sm text-lowercase btn-right" data-title="Big Buck Bunny<br>by Blender Foundation">view video</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cbp-l-grid-projects-title uppercase text-center uppercase text-center">Project Seven</div>
+                            <div class="cbp-l-grid-projects-desc uppercase text-center uppercase text-center">Logos / Graphic</div>
+                        </div>
+                    </div>
+                    <!--/portfolio 7-->
+                    <!--portfolio 8-->
+                    <div class="cbp-item web-design">
+                        <div class="cbp-item-wrap">
+                            <div class="cbp-caption">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="contents/images/portfolios/600x600/8.jpg" alt="img10"> </div>
+                                <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignCenter">
+                                        <div class="cbp-l-caption-body">
+                                            <div class="btn-group">
+                                                <a href="projects/project8.html" class="cbp-singlePage btn btn-sm text-lowercase" rel="nofollow" data-cbp-singlePage="projects">more info</a>
+                                                <a href="contents/images/portfolios/1400x900/01.jpg" class="cbp-lightbox btn btn-sm text-lowercase btn-right" data-title="Granite Stationery: Documents Perspective<br>by Aaron Covrett">view larger</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cbp-l-grid-projects-title uppercase text-center uppercase text-center">Project Eight</div>
+                            <div class="cbp-l-grid-projects-desc uppercase text-center uppercase text-center">Web Design / Graphic</div>
+                        </div>
+                    </div>
+                    <!--/portfolio 8-->
+                </div>
+                <!-- /portfolio Grid-->
+            </div>
+            <!-- /portfolio -->
+          </div>
         </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
+        <!--footer -->
+        <footer class="footer">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 id="brand-heading" class=" animated bounceInUp">Isaac Hawkins</h1>
-                        <h4 class="sub-header animated rotateIn">Front-end Developer</h4>
-                        <a href="#about" class="btn btn-circle page-scroll animated">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+                    <div class="hidden-xs col-sm-3 col-md-4">
+                        <small class="footer-small">2017 © &nbsp;Isaac Hawkins </small>
+                    </div>
+                    <div class="col-xs-12 col-sm-9 col-md-8">
+                        <!--Address -->
+                        <div class="visible-xs text-center">
+                            <address>
+                                <strong>Isaac Hawkins</strong><br>
+                                <a href="mailto:hawkins.isaac@gmail.com">hawkins.isaac@gmail.com</a><br>
+                                Austin, Tx
+                            </address>
+                        </div>
+                        <!-- /Address -->
+                        <!--Social Media -->
+                            <ul class="social-icons">
+                                <li class="facebook"><a href="https://www.facebook.com/isaac.hawkins.39" target="_blank">Facebook</a> </li>
+                                <li class="twitter"><a href="https://twitter.com/hawkins__isaac" target="_blank">Twitter</a></li>
+                                <li class="linkedin"><a href="https://www.linkedin.com/in/isaac-hawkins/" target="_blank">LinkedIn</a></li>
+                            </ul>
+                        <div class="clearfix"></div>
+                        <!-- /Social Media -->
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-</div>
-<div class="section">
+        </footer>
+        <!-- /footer -->
+        <!-- jQuery -->
+        <script src="contents/js/jquery-1.12.4.min.js" type="text/javascript"></script>
+        <script src="contents/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="contents/portfolio/js/jquery.cubeportfolio.js" type="text/javascript"></script>
+        <script src="contents/portfolio/js/portfolio-1.js" type="text/javascript"></script>
+        <script src="contents/js/retina.min.js" type="text/javascript"></script>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="contents/js/html5shiv.min.js"></script>
+        <script src="contents/js/respond.min.js"></script>
+        <![endif]-->
+        <script src="contents/js/main.js" type="text/javascript"></script>
+        <!--Google Analytics -->
+        <!-- <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h2 id="about-me">About Isaac</h2>
-                <p class="bio text-justify">My introduction to web development began in 2005 when I spent endless hours designing and customizing Wordpress and Xanga sites. By 2016, I started strengthening my coding skills by enrolling in courses online, networking with other developers, and building small-scale web applications. I have experience working on development teams as well as working on solo projects. I am currently freelancing for a few local companies in the Austin area but am open to new opportunities.</p>
-            </div>
-        </div>
-    </section>
-    <section id="skills" class="container content-section text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 id="skills-list">Skills</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 col-xs-6">
-                <h3 class="skill-title">HTML</h3>
-                <div id="html">
-                    <img src="img/html-5.png" class="logo-image animated" alt="html 5 logo" />
-                </div>
-                <div class="skillbar text-left" data-percent="90">
-                  <p class="skillbar-bar"></p>
-                  <span class="skill-bar-percent"></span>
-                </div>
-            </div>
-            <div class="col-md-3 col-xs-6">
-                <h3 class="skill-title">CSS</h3>
-                <div id="css">
-                    <img src="img/css-logo.png" class="logo-image animated" alt="CSS 3 logo" />
-                </div>
-                <div class="skillbar text-left" data-percent="85">
-                  <p class="skillbar-bar"></p>
-                  <span class="skill-bar-percent"></span>
-                </div>
-            </div>
-            <div class="col-md-3 col-xs-6">
-                <h3 class="skill-title ">JavaScript</h3>
-                <div id="javascript">
-                    <img src="img/javascript-logo.png" class="logo-image animated" alt="javascript logo" />
-                </div>
-                <div class="skillbar text-left" data-percent="70">
-                  <p class="skillbar-bar"></p>
-                  <span class="skill-bar-percent"></span>
-                </div>
-            </div>
-            <div class="col-md-3 col-xs-6">
-                <h3 class="skill-title">Node.js</h3>
-                <div id="node">
-                    <img src="img/node-logo.png" class="logo-image animated" alt="node logo" />
-                </div>
-                <div class="skillbar text-left" data-percent="68">
-                  <p class="skillbar-bar"></p>
-                  <span class="skill-bar-percent"></span>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 col-xs-6">
-                <h3 class="skill-title">Sass</h3>
-                <div id="css">
-                    <img src="img/sass-logo.png" class="logo-image animated" alt="Sass logo" />
-                </div>
-                <div class="skillbar text-left" data-percent="67">
-                  <p class="skillbar-bar"></p>
-                  <span class="skill-bar-percent"></span>
-                </div>
-            </div>
-            <div class="col-md-3 col-xs-6">
-                <h3 class="skill-title">React.js</h3>
-                <div id="jquery">
-                    <img src="img/react-logo.png" class="logo-image animated" alt="jquery logo" />
-                </div>
-                <div class="skillbar text-left" data-percent="65">
-                  <p class="skillbar-bar"></p>
-                  <span class="skill-bar-percent"></span>
-                </div>
-            </div>
-            <div class="col-md-3 col-xs-6">
-                <h3 class="skill-title">Bootstrap</h3>
-                <div id="bootstrap">
-                    <img src="img/bootstrap-logo.png" class="logo-image animated" alt="bootstrap logo" />
-                </div>
-                <div class="skillbar text-left" data-percent="87">
-                  <p class="skillbar-bar"></p>
-                  <span class="skill-bar-percent"></span>
-                </div>
-            </div>
-            <div class="col-md-3 col-xs-6">
-                <h3 class="skill-title">Git/Github</h3>
-                <div id="github">
-                    <img src="img/github.png" class="logo-image animated" alt="github logo" />
-                </div>
-                <div class="skillbar text-left" data-percent="84">
-                  <p class="skillbar-bar"></p>
-                  <span class="skill-bar-percent"></span>
-                </div>
-            </div>
-        </div>
-        <p id="accomplishments"><small>You can check out some of my accomplishments from <a href="https://www.codeschool.com/users/ikehawk10" target="_blank">Code School</a>, <a href="https://teamtreehouse.com/isaachawkins" target="_blank">Treehouse</a>, and <a href="https://www.codecademy.com/isoccer0" target="_blank">Codecademy</a>.</small></p>
-    </section>
-    <!-- Project Section Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container" id="projects">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2>Front-end Projects</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 project-section">
-                        <a href="https://hookedinaustin.herokuapp.com/" target="_blank"><img class="project-image" src="img/hookedin.png"/></a>
-                        <a class="description animated" href="https://hookedinaustin.herokuapp.com" target="_blank">View HookedIn</a>
-                    </div>
-                    <div class="col-lg-6  project-section">
-                        <a href="https://platonix.herokuapp.com/home.html" target="_blank"><img class="project-image" src="img/platonix.png"/></a>
-                        <a class="description animated" href="https://platonix.herokuapp.com/home.html" target="_blank">View Platonix</a>
-                    </div>
-                </div>
-                <div class="row">
-                   <div class="col-lg-6 project-section">
-                        <a href="http://ikehawkins.com/Johnnyswimpage/" target="_blank"><img class="project-image" src="img/hangman.png"/></a>
-                        <a class="description animated" href="http://ikehawkins.com/hangman-game/" target="_blank">View Hacker Hangman</a>
-                    </div>
+          ga('create', 'UA-24357544-3', 'auto');
+          ga('send', 'pageview');
 
-                    <div class="col-lg-6 project-section">
-                        <a href="http://ikehawkins.com/grumble/" target="_blank"> <img class="project-image" src="img/grumble.png"/></a>
-                        <a class="description animated" href="http://ikehawkins.com/grumble/" target="_blank">View Grumble</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Contact Section -->
-    <section id="contact" class="container text-center content-section">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 id="connect">Connect with Me!</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p><a href="mailto:hawkins.isaac@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>hawkins.isaac@gmail.com</a>
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/hawkins__isaac" target="_blank" class="btn btn-default btn-lg network-button"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/ikehawk10" target="_blank" class="btn btn-default btn-lg network-button"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/isaac-hawkins-10b13979/" target="_blank" class="btn btn-default network-button btn-lg"><i class="fa fa-linkedin" aria-hidden="true"></i><span class="network-name">Linkedin</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p><small>Copyright &copy; Isaac Hawkins</small></p>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-        <!-- Typeit Link -->
-    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.4.0/typeit.min.js"></script>
-
-    <script src="js/skill.bars.jquery.js"></script>
-    <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
-    <!-- Typeit Plugin -->
-    <script type="text/javascript" src="js/grayscale.js"></script>
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-</body>
-
+        </script> -->
+        <!-- /Google Analytics -->
+    </body>
 </html>
